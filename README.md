@@ -7,4 +7,5 @@ This project will be different than other projects I have worked on in the past.
 I'm excited to start working on this! Let's see where the journey takes us!
 
 
-![Picture of Myself](Web_Server_Programming/pictures/selfpic.jpg)
+![Picture of Myself](pictures/selfpic.jpg)
+
