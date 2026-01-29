@@ -9,4 +9,7 @@ I'm excited to start working on this! Let's see where the journey takes us!
 
 ![Picture of Myself](pictures/selfpic.jpg | width = 100)
 
+<img src = "pictures/selfpic.jpg" width = 100 height = 100 /)
+
+
 
