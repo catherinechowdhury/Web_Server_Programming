@@ -7,8 +7,9 @@ This project will be different than other projects I have worked on in the past.
 I'm excited to start working on this! Let's see where the journey takes us!
 
 <picture>
-  <img src = "pictures/selfpic.jpg" width = "100" height = "200" /)
+  <img src = "pictures/selfpic.jpg" width = "250" height = "250" /)
 </picture>
+
 
 
 
