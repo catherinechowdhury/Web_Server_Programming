@@ -9,7 +9,7 @@ I'm excited to start working on this! Let's see where the journey takes us!
 
 <p align = "center">
   <picture>
-    <img src = "pictures/selfpic.jpg" width = "200" height = "250" /)
+    <img src = "pictures/selfpic.jpg" width = "200" height = "250" style = "border: 5px solid pink; border-radius: 50%;"/)
   </picture> 
 </p>
 
