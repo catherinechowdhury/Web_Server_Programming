@@ -4,7 +4,7 @@
 
 <p align = "center">
   <picture>
-    <img src = "pictures/selfpic.jpg" width = "200" height = "250" style = "border: 5px solid pink; border-radius: 50%;"/)
+    <img src = "pictures/selfpic.jpg" width = "200" height = "250"/)
   </picture> 
 </p>
 
