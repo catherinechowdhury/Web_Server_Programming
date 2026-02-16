@@ -48,5 +48,27 @@ After everything is done, you can safely delete the local branch
 ## Reverting Commits
 1. Safe way to undo a commit: `git revert`
 
+1. Safe way (recommended for shared repos): git revert
+This creates a new commit that undoes an earlier one.
+
+Find the commit hash:
+git log --oneline
+Revert that commit:
+git revert <commit-hash>
+If it opens an editor for the message, save & close, then:
+git push
+Use this when the commits are already on GitHub or others may have pulled them.
+
+2. Rewrite history (only if you’re sure): git reset
+This moves your branch pointer backwards.
+
+See commits:
+git log --oneline
+Hard reset to an older commit (throws away later commits from this branch):
+git reset --hard <commit-hash>
+Then push with force (only if you know what you’re doing):
+git push --force
+Use reset --hard only on branches that are just yours and you understand that newer commits will be removed from that branch’s history.
+
 ## Bulma
 [Bulma Documentation](https://bulma.io/documentation/)

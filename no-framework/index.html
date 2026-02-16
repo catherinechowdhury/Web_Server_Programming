@@ -5,28 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - My Website</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
-    <link rel="stylesheet" href="style.css">
-    
+
 </head>
 
 <body>
     
-    <header>
-        <h1>THIS IS MY MAIN BRANCH</h1>
-    </header>
-    
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
+    <nav class="navbar is-danger" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand"><span class="icon"><i class="fas fa-home"></i></span></div>
+        <div class="navbar-menu">
+            <!-- Navbar Start -->
+            <div class="navbar-start">
+                <a href="index.html" class="navbar-item">Home</a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <span class="navbar-link">About</span>
+                    <div class="navbar-dropdown">
+                        <a href="about.html" class="navbar-item">About Us</a>
+                        <a href="#" class="navbar-item">Our Team</a>
+                        <a href="#" class="navbar-item">Careers</a>
+                    </div>
+                </div>  
+            </div>
+
+            <!-- Navbar End -->
+            <div class="navbar-end">
+                <a href="services.html" class="navbar-item">Services</a>
+                <a href="blog.html" class="navbar-item">Blog</a>
+                <a href="contact.html" class="navbar-item">Contact</a>
+            </div>
+        </div>
+  
     </nav>
 
-    <main>
+     <main>
         <h2>Home Page</h2>
         <p>Welcome to the landing page of our simple static website. Explore the links above to learn more about us.</p>
     </main>
+     <div class="box">I'm in a box</div>
+
+     <form class="box">
+        <div class="field">
+            <label class="label">Name</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="Your Name">
+            </div>
+        </div>
+    </form>
+
+   
 
     <footer>
         <p>&copy; 2026 My Website</p>
