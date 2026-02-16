@@ -18,13 +18,17 @@ Git switch is a newer command designed for switching.
 - Merge a branch into main:
   - `git switch main`
   - `git merge practice-branch`
+- View all commits: `git log` will show new commits first
+- One line per commit: `git log --oneline`
 
 ## Steps to Creating and Merging 
 1. Make changes on the branch
     - Edit your files
     - Save your work 
 2. See what changed
-    - Run: `git status` or `git diff` to see edits
+    - Run: `git status` or `git diff` to see edits before staging. This will show changes between your working directory and the last commit
+    - Run: `git diff --staged` to show what's in the staging area before commit
+    - Run: `git diff main BRANCH` to compare after commits
 3. Stage and commit your changes
     - Stage: `git add .` (or specific files)
     - Commit: `git commit -m "TEXT"`
@@ -41,6 +45,8 @@ Git switch is a newer command designed for switching.
 After everything is done, you can safely delete the local branch
 - `git branch -d practice-branch`
 
+## Reverting Commits
+1. Safe way to undo a commit: `git revert`
 
 ## Bulma
 [Bulma Documentation](https://bulma.io/documentation/)
