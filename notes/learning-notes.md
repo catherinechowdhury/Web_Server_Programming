@@ -62,6 +62,12 @@ Use this when the commits are already on GitHub or others may have pulled them.
 2. Rewrite history (only if you’re sure): git reset
 This moves your branch pointer backwards.
 
+3. In case any files were tracked by Git and need to be removed from tracking: 
+
+`git rm -r --cached node_modules/`
+
+`git rm --cached .env`
+
 See commits:
 git log --oneline
 Hard reset to an older commit (throws away later commits from this branch):
