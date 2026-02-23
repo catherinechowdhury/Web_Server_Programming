@@ -1,11 +1,11 @@
 <script setup>
-    import ref from 'vue'
-    const emoji = ref('&#128512;')
+    import { ref } from 'vue'
+    const emoji = ref('😀')
 </script>
 
 <template>
     <header>
-        <span>&copy;{{emoji}}</span>
+        <span>{{emoji}}</span>
     </header>
 </template>
 
