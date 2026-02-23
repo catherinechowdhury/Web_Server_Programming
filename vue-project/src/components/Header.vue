@@ -4,13 +4,13 @@
 </script>
 
 <template>
-    <header>
-        <span>{{emoji}}</span>
+    <header class="hero is-primary">
+        <div class="hero-body">
+            <span class="title">{{emoji}}</span>
+        </div>
     </header>
 </template>
 
 <style scoped>
-     header span{
-        font-size: 3rem;
-    }
+     
 </style>

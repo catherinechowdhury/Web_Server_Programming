@@ -4,18 +4,13 @@
 </script>
 
 <template>
-    
-    <footer>
-        <p>&copy; {{ year }} </p>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>&copy; {{ year }} </p>
+        </div>
     </footer>
-    
 </template>
 
 <style scoped>
-      footer p{
-        position: fixed;
-        bottom: 0;
-        padding-bottom: 20px;
-        color: lightcoral;
-    }
+    
 </style>

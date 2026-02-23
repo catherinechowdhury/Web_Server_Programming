@@ -5,11 +5,12 @@
 </script>
 
 <template>
-    <Header/>
+  <Header/>
+  <div class="container is-fluid">
     <Main/>
-    <Footer/>
+  </div>
+  <Footer/>
 </template>
 
 <style scoped> 
-  
 </style>
