@@ -19,15 +19,15 @@
     </div>
     
     <script>
-        // const {createApp,ref} = Vue
+        const {createApp,ref} = Vue
 
-        Vue.createApp({
+        createApp({
             // this will run when the app starts
             setup(){
-                    const emoji = ref("&#128512;") 
-                    const errorCode = ref("101")  
-                    const message = ref("First Lesson in learning how to use Vue!")
-                    const button = ref("Go back to safety") 
+                    const emoji = ref('😎') 
+                    const errorCode = ref('101')  
+                    const message = ref('First Lesson in learning how to use Vue!')
+                    const button = ref('Go back to safety') 
                     return {emoji,errorCode,message,button}
             } 
         }).mount("#app")
